@@ -1,0 +1,51 @@
+.tarjeta {
+  border: 2px solid #ccc;
+  border-radius: 12px;
+  padding: 1rem;
+  margin: 1rem auto;
+  max-width: 300px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tarjeta:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
+}
+
+.encabezado {
+  margin-bottom: 0.5rem;
+}
+
+.titulo {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #222;
+}
+
+.descripcion {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 0.5rem;
+}
+
+.categoria {
+  font-size: 0.875rem;
+  font-style: italic;
+  color: #888;
+}
+
+/* Variantes */
+.tarjetaPrimaria {
+  background-color: #e3f2fd;
+  border-color: #2196f3;
+}
+
+.tarjetaSecundaria {
+  background-color: #f3e5f5;
+  border-color: #9c27b0;
+}
+
+.tarjetaExito {
+  background-color: #e8f5e9;
+  border-color: #4caf50;
+}
