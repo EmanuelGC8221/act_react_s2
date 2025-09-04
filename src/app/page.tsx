@@ -10,7 +10,7 @@ export default function Page() {
         <h1 className="text-2xl font-bold mb-4"> Tarjeta con CSS Global</h1>
         <TarjetaGlobal 
           titulo="Soy Global" 
-          contenido="Uso estilos definidos en globals.css." 
+          contenido="estilos definidos en globals.css." 
           color="blue"
         />
       </section>
